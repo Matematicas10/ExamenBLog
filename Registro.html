@@ -5,42 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Registro Chempo-Blogs</title>
+    <link rel="stylesheet" href="CSS/Diseño.css">
 </head>
 <body>
     <h1>
-        IChempo-Blogs
+        IChempo-Blogs: Registro
     </h1>
     <h3>
         "Un simple blog, que destaca la sinceridad"
     </h3>
     <br>
-    <form>
+    <form name="form" action="PHP/Registro.php" method="post">
         <fieldset>
-            Título del artículo
-            <input type="text" name="Título">
+            T&iacute;tulo del artículo
+            <input type="text" name="titulo">
         </fieldset>
     <br>
         <fieldset>
             Imagen representativa
-            <input type="file" name="Imagen">
+            <input type="text" name="imagen">
         </fieldset>
     <br>
         <fieldset>
             Descripción del artículo
             <br>
-            <textarea name="Descripción"  cols="80" rows="8">
+            <textarea name="descripcion"  cols="80" rows="8">
 
             </textarea>
         </fieldset>
     <br>
         <fieldset>
             Nombre del autor
-            <input type="text" name="Autor">
+            <input type="text" name="autor">
         </fieldset>
     <br>
         <fieldset>
             Fecha de publicación del blog
-            <input type="date" name="Fecha">
+            <input type="text" name="fecha">
         </fieldset>
     <br>
     <input type="submit" value="subir registro">
