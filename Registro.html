@@ -7,6 +7,16 @@
     <title> Registro Chempo-Blogs</title>
 </head>
 <body>
+    <header> 
+        <nav>
+            <ul>
+                <li id="ini">
+                    <a href="ini.php">inicio </a>  
+                </li>
+                
+            </ul>
+        </nav>
+    </header>
     <h1>
         IChempo-Blogs: Registro
     </h1>
@@ -17,19 +27,19 @@
     <form name="form" action="PHP/Registro.php" method="post">
         <fieldset>
             T&iacute;tulo del artículo
-            <input type="text" name="titulo">
+            <input type="text" name="titulo" value="Colocar titulo">
         </fieldset>
     <br>
         <fieldset>
             Imagen representativa
-            <input type="url" name="imagen">
+            <input type="url" name="imagen" value="Insertar URL">
         </fieldset>
     <br>
         <fieldset>
             Descripción del artículo
             <br>
-            <textarea name="descripcion"  cols="80" rows="8">
-
+            <textarea name="descripcion"   cols="80" rows="8" >
+                Colocar descripción por ejemplo
             </textarea>
         </fieldset>
     <br>
@@ -45,5 +55,6 @@
     <br>
     <input type="submit" value="subir registro">
     </form>
+    
 </body>
 </html>
