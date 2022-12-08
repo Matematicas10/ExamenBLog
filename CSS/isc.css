@@ -1,0 +1,23 @@
+header {
+    background: rgba(231, 157, 9, 0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  nav{
+    float: left;
+  }
+  nav ul{
+    list-style: none;
+    overflow: hidden;
+  }
+  nav ul li {
+    float: left;
+    font-size: 15px;
+  }
+  nav ul li a {
+    display: block; 
+    padding: 5px;
+    color: rgb(2, 0, 0);
+    text-decoration: none;
+  }

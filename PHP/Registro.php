@@ -1,3 +1,4 @@
+
 <?php
 include_once('CBD.php');
 //Variables para guardar los datos o mejor dicho para recibirlos
