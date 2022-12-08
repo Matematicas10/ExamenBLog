@@ -1,5 +1,5 @@
 header {
-    background: rgba(231, 157, 9, 0.7);
+    background: rgba(185, 79, 206, 0.7);
     width: 100%;
     position: fixed;
     z-index: 100;
@@ -21,3 +21,13 @@ header {
     color: rgb(2, 0, 0);
     text-decoration: none;
   }
+  #ini a:hover{
+    background: lightgreen;
+  }
+  
+  body{
+    background-color: rgb(243, 166, 237);
+  }
+ #det{
+    background-color: rgb(128, 65, 114);
+ }

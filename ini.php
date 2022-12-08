@@ -19,13 +19,16 @@
             </ul>
         </nav>
     </header>
-    <br><br><br><br>
+    <br><br>
+    <div id="det">
     <h1>
-        IChempo-Blogs
+        IChempo-Blogs: Registro
     </h1>
     <h3>
         "Un simple blog, que destaca la sinceridad"
     </h3>
+    </div>
+    <img src="imagen/fo.jpg"  width="200px">
     <br>
     <?php
 $servername = "localhost"; 

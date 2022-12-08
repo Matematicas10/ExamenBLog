@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Registro Chempo-Blogs</title>
+    <link rel="stylesheet" href="CSS/isc.css">
+
 </head>
 <body>
     <header> 
@@ -17,12 +19,16 @@
             </ul>
         </nav>
     </header>
+    <br><br>
+    <div id="det">
     <h1>
         IChempo-Blogs: Registro
     </h1>
     <h3>
         "Un simple blog, que destaca la sinceridad"
     </h3>
+    </div>
+    <img src="imagen/fo.jpg"  width="200px">
     <br>
     <form name="form" action="PHP/Registro.php" method="post">
         <fieldset>
@@ -38,19 +44,20 @@
         <fieldset>
             Descripción del artículo
             <br>
-            <textarea name="descripcion"   cols="80" rows="8" >
-                Colocar descripción por ejemplo
+            <textarea name="descripcion"   cols="80" rows="8" >Colocar descripción por ejemplo <br>
+La naturaleza del ser humano establece un vínculo celestial
+sin embargo, influye la mujer...
             </textarea>
         </fieldset>
     <br>
         <fieldset>
             Nombre del autor
-            <input type="text" name="autor">
+            <input type="text" name="autor" value="Apellido, nombre">
         </fieldset>
     <br>
         <fieldset>
             Fecha de publicación del blog
-            <input type="text" name="fecha">
+            <input type="text" name="fecha" value="DD/MM/AAAA">
         </fieldset>
     <br>
     <input type="submit" value="subir registro">
